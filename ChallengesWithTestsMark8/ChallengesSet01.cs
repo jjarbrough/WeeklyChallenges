@@ -47,17 +47,17 @@ namespace ChallengesWithTestsMark8
         {
             if (!string.IsNullOrEmpty(nameOfPerson))
             {
-                return $"Hellow, {nameOfPerson}!";
+                return $"Hello, {nameOfPerson}!";
             }
             else
             {
-                return "Hellow!";
+                return "Hello!";
             }
         }
 
         public string GetHey()
         {
-            return "Hey!";
+            return "HEY!";
         }
     }
 }
